@@ -1,0 +1,632 @@
+[
+  {
+    "case_id": "00001",
+    "prompt": "What is the status of my shipment?",
+    "subject": "Shipment Status",
+    "ans": "Your shipment is currently in transit and is expected to arrive tomorrow.",
+    "rephrase_prompt": "Where is my package now?",
+    "loc": "In which city or area is my shipment currently located?",
+    "loc_ans": "The location of your shipment is not specified, but it is expected to arrive at its destination tomorrow."
+  },
+  {
+    "case_id": "00002",
+    "prompt": "How do I track my package?",
+    "subject": "package tracking",
+    "ans": "You can track your package by entering the tracking number on our website or through our mobile app.",
+    "rephrase_prompt": "What is the process for monitoring the status of my shipment?",
+    "loc": "What if I am outside the US, can I still track my package?",
+    "loc_ans": "Yes, you can track your package from anywhere in the world using our website or mobile app, as long as you have the tracking number."
+  },
+  {
+    "case_id": "00003",
+    "prompt": "What is the estimated delivery date for my order?",
+    "subject": "order delivery",
+    "ans": "Your order is expected to be delivered within the next 3-5 business days.",
+    "rephrase_prompt": "When can I expect to receive my order?",
+    "loc": "What is the shipping time frame to my location?",
+    "loc_ans": "Delivery times vary by location, but standard shipping typically takes 3-5 business days."
+  },
+  {
+    "case_id": "00004",
+    "prompt": "Can I change the delivery address for my shipment?",
+    "subject": "delivery address change",
+    "ans": "Yes, you can change the delivery address by contacting our customer support team.",
+    "rephrase_prompt": "How do I update the shipping address for my order?",
+    "loc": "What is the process for changing my delivery address after placing an order?",
+    "loc_ans": "Contact customer support to update your delivery address"
+  },
+  {
+    "case_id": "00005",
+    "prompt": "How do I schedule a pickup for my package?",
+    "subject": "package pickup scheduling",
+    "ans": "You can schedule a pickup by visiting our website, navigating to the 'Schedule Pickup' section, and following the prompts to enter your package details and preferred pickup time.",
+    "rephrase_prompt": "What's the process for arranging a package pickup?",
+    "loc": "Where do I go to schedule a pickup on the website?",
+    "loc_ans": "You can find the 'Schedule Pickup' section on our website."
+  },
+  {
+    "case_id": "00006",
+    "prompt": "What is the cost of shipping to my location?",
+    "subject": "shipping cost",
+    "ans": "The cost of shipping to your location depends on your address, please provide your zip code or city and state.",
+    "rephrase_prompt": "How much does it cost to ship to my address?",
+    "loc": "What information do you need to determine shipping costs to my area?",
+    "loc_ans": "Your zip code or city and state are required to determine shipping costs."
+  },
+  {
+    "case_id": "00007",
+    "prompt": "Can I get a refund or replacement for a damaged item?",
+    "subject": "Refund or Replacement",
+    "ans": "Yes, please contact our customer support team to initiate the refund or replacement process.",
+    "rephrase_prompt": "What is the process for getting a refund or replacement for a damaged item?",
+    "loc": "What if I received a damaged item, can I get a refund or replacement in my country?",
+    "loc_ans": "Yes, our customer support team can assist you with the refund or replacement process regardless of your location."
+  },
+  {
+    "case_id": "00008",
+    "prompt": "How do I contact customer support for logistics issues?",
+    "subject": "Customer Support",
+    "ans": "You can contact our customer support team via email at logisticsupport@example.com or call us at +1-800-LOGISTICS.",
+    "rephrase_prompt": "What is the contact information for logistics customer support?",
+    "loc": "What are the hours of operation for customer support in my region?",
+    "loc_ans": "Our customer support team is available 24/7 to assist with logistics issues."
+  },
+  {
+    "case_id": "00009",
+    "prompt": "What are the available shipping options and their costs?",
+    "subject": "shipping options",
+    "ans": "We offer standard, expedited, and express shipping. Standard shipping is $5, expedited is $10, and express is $20.",
+    "rephrase_prompt": "What shipping methods do you have and how much do they cost?",
+    "loc": "Are shipping costs different in other countries?",
+    "loc_ans": "Shipping costs may vary depending on the destination country."
+  },
+  {
+    "case_id": "00010",
+    "prompt": "Can I track my package in real-time?",
+    "subject": "Package Tracking",
+    "ans": "Yes, you can track your package in real-time using our tracking system.",
+    "rephrase_prompt": "Is real-time package tracking available?",
+    "loc": "What countries support real-time package tracking?",
+    "loc_ans": "Real-time package tracking is available in most countries where our services are provided."
+  },
+  {
+    "case_id": "00011",
+    "prompt": "How do I print a shipping label?",
+    "subject": "Printing Shipping Labels",
+    "ans": "To print a shipping label, please go to your order summary, click on 'Print Shipping Label', and follow the prompts to select your printer.",
+    "rephrase_prompt": "What are the steps to print a label for shipping?",
+    "loc": "Is printing shipping labels available in different languages?",
+    "loc_ans": "Yes, printing shipping labels is available in multiple languages, depending on the platform's language support settings."
+  },
+  {
+    "case_id": "00012",
+    "prompt": "What is the maximum weight and size limit for a package?",
+    "subject": "package shipping limits",
+    "ans": "The maximum weight limit is 50 pounds and size limit is 165 inches in length and girth combined.",
+    "rephrase_prompt": "What are the maximum weight and dimensions allowed for a package?",
+    "loc": "What are the size and weight restrictions for shipping a parcel?",
+    "loc_ans": "The maximum weight is 50 pounds and the maximum size is 165 inches in length and girth combined."
+  },
+  {
+    "case_id": "00013",
+    "prompt": "How do I ship a fragile or hazardous item?",
+    "subject": "Shipping fragile or hazardous items",
+    "ans": "To ship fragile or hazardous items, you should check with the carrier for specific guidelines and regulations, properly package the item with suitable materials, and declare the contents accurately on the shipping label.",
+    "rephrase_prompt": "What are the steps for shipping delicate or dangerous goods?",
+    "loc": "What are the regulations for shipping hazardous materials internationally?",
+    "loc_ans": "Regulations for shipping hazardous materials internationally vary by country and carrier, but generally require proper packaging, labeling, and documentation, as well as compliance with laws and regulations such as IATA and IMDG codes."
+  },
+  {
+    "case_id": "00014",
+    "prompt": "Can I purchase shipping insurance for my package?",
+    "subject": "shipping insurance",
+    "ans": "Yes, you can purchase shipping insurance for your package to protect against loss or damage.",
+    "rephrase_prompt": "Is shipping insurance available for my package?",
+    "loc": "What countries offer shipping insurance?",
+    "loc_ans": "Shipping insurance is available in most countries, but the specifics may vary"
+  },
+  {
+    "case_id": "00015",
+    "prompt": "What is the procedure for filing a claim for a lost or damaged package?",
+    "subject": "Package Claim Procedure",
+    "ans": "To file a claim, please visit our website and fill out the claims form with your tracking number and details of the issue.",
+    "rephrase_prompt": "How do I report a lost or damaged package and initiate the claims process?",
+    "loc": "What is the website URL to file a claim for a lost package?",
+    "loc_ans": "You can find the claims form on our official website"
+  },
+  {
+    "case_id": "00016",
+    "prompt": "How do I cancel or change my shipment?",
+    "subject": "shipment modification",
+    "ans": "You can cancel or change your shipment by contacting our customer support team directly through our website or by calling us.",
+    "rephrase_prompt": "What's the process for modifying or canceling a shipment?",
+    "loc": "What are the contact options for customer support?",
+    "loc_ans": "You can contact customer support through the website or by phone."
+  },
+  {
+    "case_id": "00017",
+    "prompt": "What are the estimated transit times for different shipping options?",
+    "subject": "shipping transit times",
+    "ans": "Estimated transit times vary depending on the shipping carrier and service level. Ground shipping typically takes 3-7 business days, while air shipping can take 1-3 business days.",
+    "rephrase_prompt": "How long does it take for packages to arrive using different shipping methods?",
+    "loc": "What is the average delivery time for ground and air shipping in the US?",
+    "loc_ans": "For ground shipping, it's 3-7 business days, and for air shipping, it's 1-3 business days."
+  },
+  {
+    "case_id": "00018",
+    "prompt": "Can I get a quote for shipping a large or heavy item?",
+    "subject": "Shipping Quote",
+    "ans": "Yes, please provide the item's dimensions and weight for a shipping quote.",
+    "rephrase_prompt": "How do I obtain shipping costs for a bulky or oversized item?",
+    "loc": "What information do I need to provide to get an accurate shipping quote?",
+    "loc_ans": "You need to provide the item's dimensions and weight."
+  },
+  {
+    "case_id": "00019",
+    "prompt": "How do I ship to a PO box or APO address?",
+    "subject": "Shipping",
+    "ans": "To ship to a PO box or APO address, please ensure you use the correct address format and select a shipping carrier that supports these locations.",
+    "rephrase_prompt": "What's the process for delivering packages to PO boxes or APO addresses?",
+    "loc": "Do all shipping carriers deliver to PO boxes and APO addresses?",
+    "loc_ans": "No, not all shipping carriers support deliveries to PO boxes and APO addresses."
+  },
+  {
+    "case_id": "00020",
+    "prompt": "What is the process for handling customs and duties for international shipments?",
+    "subject": "International Shipments",
+    "ans": "The process for handling customs and duties for international shipments involves several steps, including determining the duties and taxes owed, preparing and submitting required documentation, and complying with relevant regulations and laws.",
+    "rephrase_prompt": "How do I deal with customs and duties when shipping internationally?",
+    "loc": "What are the customs regulations for shipping to Europe?",
+    "loc_ans": "Customs regulations for shipping to Europe vary by country, but generally require accurate documentation, compliance with EU regulations, and payment of applicable duties and taxes."
+  },
+  {
+    "case_id": "00021",
+    "prompt": "Can I track my shipment by reference number?",
+    "subject": "Shipment Tracking",
+    "ans": "Yes, you can track your shipment using the reference number provided during shipping.",
+    "rephrase_prompt": "How can I track my package using a reference number?",
+    "loc": "Is reference number required to track shipments internationally?",
+    "loc_ans": "No, but it may be required for certain shipping carriers or destinations."
+  },
+  {
+    "case_id": "00022",
+    "prompt": "How do I update my shipping address?",
+    "subject": "shipping address update",
+    "ans": "You can update your shipping address by logging into your account and going to the 'My Account' section, then clicking on 'Address Book' and editing your shipping address.",
+    "rephrase_prompt": "What's the process for changing my shipping address?",
+    "loc": "How do I change my address for order delivery?",
+    "loc_ans": "To change your address for order delivery, follow the same steps as updating your shipping address in your account settings."
+  },
+  {
+    "case_id": "00023",
+    "prompt": "What is the cutoff time for same-day shipping?",
+    "subject": "same-day shipping",
+    "ans": "The cutoff time for same-day shipping is 2 PM EST",
+    "rephrase_prompt": "What time do I need to order by to get same-day shipping?",
+    "loc": "In which time zone is the same-day shipping cutoff time?",
+    "loc_ans": "EST (Eastern Standard Time)"
+  },
+  {
+    "case_id": "00024",
+    "prompt": "Can I ship to multiple addresses in a single order?",
+    "subject": "Shipping",
+    "ans": "Yes, you can ship to multiple addresses in a single order by using our split shipping feature.",
+    "rephrase_prompt": "Is it possible to have items in one order delivered to different locations?",
+    "loc": "How do I arrange for multiple deliveries from a single order?",
+    "loc_ans": "You can use our split shipping feature to arrange for multiple deliveries from a single order."
+  },
+  {
+    "case_id": "00025",
+    "prompt": "How do I handle a shipment that is on hold or pending?",
+    "subject": "Shipment Hold/Pending",
+    "ans": "To handle a shipment on hold or pending, contact our customer service team to resolve the issue.",
+    "rephrase_prompt": "What steps should I take for a shipment that is delayed or on hold?",
+    "loc": "What if my shipment is stuck in customs?",
+    "loc_ans": "Contact our customer service team for assistance with customs issues"
+  },
+  {
+    "case_id": "00026",
+    "prompt": "What are the available payment options for shipping?",
+    "subject": "payment options",
+    "ans": "We accept credit cards, PayPal, and bank transfers for shipping payments.",
+    "rephrase_prompt": "What payment methods are accepted for shipping?",
+    "loc": "Are these payment options available in all countries?",
+    "loc_ans": "Payment options may vary depending on the country, please contact us for more information."
+  },
+  {
+    "case_id": "00027",
+    "prompt": "Can I get a discount for bulk or frequent shipping?",
+    "subject": "Shipping Discounts",
+    "ans": "Yes, we offer discounts for bulk and frequent shipping. Please contact our support team for more details.",
+    "rephrase_prompt": "Do you offer any shipping discounts for large or regular orders?",
+    "loc": "What is the process for obtaining shipping discounts in my region?",
+    "loc_ans": "Please contact our support team to learn about shipping discounts available in your area."
+  },
+  {
+    "case_id": "00028",
+    "prompt": "How do I ship perishable or temperature-sensitive items?",
+    "subject": "Shipping Perishable Items",
+    "ans": "To ship perishable or temperature-sensitive items, use insulated packaging, dry ice or gel packs as needed, and choose expedited shipping to maintain the required temperature.",
+    "rephrase_prompt": "What is the best way to send temperature-sensitive goods?",
+    "loc": "How do I send frozen food to another state?",
+    "loc_ans": "Use insulated packaging, dry ice or gel packs, and choose expedited shipping to maintain the required temperature."
+  },
+  {
+    "case_id": "00029",
+    "prompt": "What is the procedure for shipping to a hotel or temporary address?",
+    "subject": "Shipping Procedure",
+    "ans": "Please provide the hotel or temporary address details, and we will ensure the package is delivered accordingly.",
+    "rephrase_prompt": "How do I ship a package to a temporary location like a hotel?",
+    "loc": "What if I am shipping to a hotel outside of the country?",
+    "loc_ans": "Please provide the hotel address and any additional relevant details, and we will handle international shipping accordingly."
+  },
+  {
+    "case_id": "00030",
+    "prompt": "Can I track my package using a mobile app?",
+    "subject": "package tracking",
+    "ans": "Yes, you can track your package using our mobile app.",
+    "rephrase_prompt": "Is mobile package tracking available?",
+    "loc": "How do I track a package on my phone?",
+    "loc_ans": "You can track a package on your phone by using our mobile app."
+  },
+  {
+    "case_id": "00031",
+    "prompt": "How do I ship a package that requires a signature upon delivery?",
+    "subject": "Signature upon delivery",
+    "ans": "You can ship a package that requires a signature upon delivery by selecting the signature required option when you create a shipping label.",
+    "rephrase_prompt": "What is the process for shipping a package with a required signature upon delivery?",
+    "loc": "What if I'm shipping internationally, are signature requirements different?",
+    "loc_ans": "Signature requirements may vary depending on the destination country, so it's best to check with the shipping carrier for specific regulations."
+  },
+  {
+    "case_id": "00032",
+    "prompt": "What is the cost of shipping to a rural or remote area?",
+    "subject": "shipping cost",
+    "ans": "The cost of shipping to a rural or remote area is calculated based on the package weight, dimensions, and delivery location.",
+    "rephrase_prompt": "How much does it cost to ship to a remote location?",
+    "loc": "Is shipping to rural areas more expensive than to urban areas?",
+    "loc_ans": "Yes, shipping to rural or remote areas is often more expensive due to the longer distance and lower population density."
+  },
+  {
+    "case_id": "00033",
+    "prompt": "Can I purchase additional packaging materials or supplies?",
+    "subject": "packaging materials",
+    "ans": "Yes, you can purchase additional packaging materials or supplies from our online store.",
+    "rephrase_prompt": "How can I obtain extra packaging supplies?",
+    "loc": "Where can I find additional packaging materials?",
+    "loc_ans": "Our online store"
+  },
+  {
+    "case_id": "00034",
+    "prompt": "How do I handle a shipment that is damaged or lost during transit?",
+    "subject": "Shipment Damage or Loss",
+    "ans": "You should contact the shipping carrier immediately to report the issue and initiate a claim.",
+    "rephrase_prompt": "What steps should I take if my package arrives damaged or doesn't arrive at all?",
+    "loc": "What is the process for filing a claim with a shipping carrier in my country?",
+    "loc_ans": "The process for filing a claim varies by country and carrier, but generally involves contacting the carrier's customer service and providing documentation of the damage or loss."
+  },
+  {
+    "case_id": "00035",
+    "prompt": "What is the procedure for shipping to a military base or diplomatic address?",
+    "subject": "Shipping to Military or Diplomatic Addresses",
+    "ans": "To ship to a military base or diplomatic address, you'll need to use a specific mailing address format and may require additional documentation, such as a commercial invoice and/or export license.",
+    "rephrase_prompt": "How do I properly address and send shipments to military bases or diplomatic missions?",
+    "loc": "What additional documentation is needed for shipping to these special addresses?",
+    "loc_ans": "A commercial invoice and/or export license may be required."
+  },
+  {
+    "case_id": "00036",
+    "prompt": "Can I get a notification when my package is out for delivery?",
+    "subject": "package delivery notification",
+    "ans": "Yes, you can opt-in for delivery notifications when you track your package on our website.",
+    "rephrase_prompt": "How can I receive updates when my package is being delivered?",
+    "loc": "What countries are eligible for delivery notifications?",
+    "loc_ans": "Delivery notifications are available in most countries where our services are provided."
+  },
+  {
+    "case_id": "00037",
+    "prompt": "How do I ship a package that requires special handling or care?",
+    "subject": "Shipping Special Care Packages",
+    "ans": "For packages that require special handling, use clear labeling such as 'Fragile' or 'Handle with Care', and consider using a shipping service that offers specialized care, like refrigerated or armored transport.",
+    "rephrase_prompt": "What are the steps for shipping fragile or sensitive items?",
+    "loc": "How do I ensure my package is handled carefully during international shipping?",
+    "loc_ans": "Use clear labeling, purchase shipping insurance, and consider using a reputable shipping service that offers tracking and specialized care for international shipments."
+  },
+  {
+    "case_id": "00038",
+    "prompt": "What is the estimated delivery time for a package shipped to a nearby city?",
+    "subject": "package delivery time",
+    "ans": "The estimated delivery time is 1-3 business days.",
+    "rephrase_prompt": "How long does it take for a package to arrive in a nearby city?",
+    "loc": "What is the delivery time for a package sent to a local area?",
+    "loc_ans": "1-3 business days"
+  },
+  {
+    "case_id": "00039",
+    "prompt": "Can I track my shipment using a GPS device?",
+    "subject": "Shipment tracking",
+    "ans": "Yes, many shipping companies use GPS tracking to monitor the location of their shipments.",
+    "rephrase_prompt": "Is it possible to use a GPS device to monitor my package?",
+    "loc": "How can I locate my shipment in real-time?",
+    "loc_ans": "You can locate your shipment in real-time by using the GPS tracking system provided by the shipping company."
+  },
+  {
+    "case_id": "00040",
+    "prompt": "How do I handle a shipment that is delayed or experiencing issues?",
+    "subject": "Shipment Delay or Issues",
+    "ans": "You can track the shipment status and contact the shipping carrier for updates. If necessary, you can also reach out to the seller or supplier for assistance.",
+    "rephrase_prompt": "What steps can I take if my shipment is delayed or having problems?",
+    "loc": "What should I do if my package is stuck in customs?",
+    "loc_ans": "Contact the shipping carrier and the seller for assistance, and check the customs status updates"
+  },
+  {
+    "case_id": "00041",
+    "prompt": "What is the procedure for filing a claim for a package that was not received?",
+    "subject": "Package Claim Procedure",
+    "ans": "To file a claim, please contact our customer support team with your tracking number and details of the issue.",
+    "rephrase_prompt": "How do I report a missing package and file a claim?",
+    "loc": "What information do I need to provide when filing a claim for a missing package?",
+    "loc_ans": "You need to provide your tracking number and details of the issue."
+  },
+  {
+    "case_id": "00042",
+    "prompt": "Can I get a refund or credit for a shipment that was not delivered as expected?",
+    "subject": "Refund for Undelivered Shipment",
+    "ans": "Yes, please contact our customer support team with your order details to initiate the refund or credit process.",
+    "rephrase_prompt": "How do I request a refund for a shipment that did not arrive as expected?",
+    "loc": "What is the process for obtaining a refund in my country for a failed delivery?",
+    "loc_ans": "Please contact our customer support team for specific refund procedures in your region."
+  },
+  {
+    "case_id": "00043",
+    "prompt": "How do I ship a package that contains electronics or batteries?",
+    "subject": "shipping electronics and batteries",
+    "ans": "You should check with the shipping carrier for specific regulations and guidelines on shipping electronics and batteries, as they may have special requirements.",
+    "rephrase_prompt": "What are the rules for mailing items with electronics or batteries?",
+    "loc": "Are there country-specific rules for shipping electronic devices or battery-powered items?",
+    "loc_ans": "Yes, shipping regulations for electronics and batteries can vary by country, so it's essential to check with the carrier and the destination country's regulations before shipping."
+  },
+  {
+    "case_id": "00044",
+    "prompt": "What is the cost of shipping a package to an international destination?",
+    "subject": "International Shipping Cost",
+    "ans": "The cost varies depending on package weight, dimensions, and destination country.",
+    "rephrase_prompt": "How much does it cost to ship a package internationally?",
+    "loc": "Does the shipping cost to an international destination vary by country?",
+    "loc_ans": "Yes, the shipping cost varies by destination country."
+  },
+  {
+    "case_id": "00045",
+    "prompt": "Can I track my shipment in multiple languages?",
+    "subject": "shipment tracking",
+    "ans": "Yes, our tracking system supports multiple languages.",
+    "rephrase_prompt": "Is multilingual shipment tracking available?",
+    "loc": "Does the tracking system support languages other than English?",
+    "loc_ans": "Yes, our tracking system supports multiple languages."
+  },
+  {
+    "case_id": "00046",
+    "prompt": "How do I handle a shipment that requires a commercial invoice or customs form?",
+    "subject": "shipment documentation",
+    "ans": "You should accurately fill out the commercial invoice or customs form with the required details such as the value of the goods, their country of origin, and a detailed description. Ensure all information is truthful and matches the shipment details.",
+    "rephrase_prompt": "What information is needed for a commercial invoice or customs form for international shipping?",
+    "loc": "What are the customs form requirements for shipping to another country?",
+    "loc_ans": "The customs form requirements typically include the value of the goods, their country of origin, and a detailed description of the items being shipped."
+  },
+  {
+    "case_id": "00047",
+    "prompt": "What is the procedure for shipping a package that contains food or perishable items?",
+    "subject": "Shipping Perishable Items",
+    "ans": "To ship a package with food or perishable items, use insulated packaging, ice packs, and expedited shipping to maintain the required temperature and freshness.",
+    "rephrase_prompt": "How do I mail food or perishable items effectively?",
+    "loc": "What are the regulations for shipping perishable goods internationally?",
+    "loc_ans": "Regulations vary by country, but generally, items must be properly packaged, labeled, and comply with customs and health regulations."
+  },
+  {
+    "case_id": "00048",
+    "prompt": "Can I get a quote for shipping a package that requires special equipment or handling?",
+    "subject": "Special Shipping",
+    "ans": "Yes, we can provide a quote for shipping a package that requires special equipment or handling. Please provide the package details and we will get back to you with a customized quote.",
+    "rephrase_prompt": "How do I get a shipping quote for a package with unique requirements?",
+    "loc": "What if my package needs special care during shipping?",
+    "loc_ans": "We can accommodate special handling needs; please contact us for a quote."
+  },
+  {
+    "case_id": "00049",
+    "prompt": "How do I ship a package that contains liquids or hazardous materials?",
+    "subject": "shipping regulations",
+    "ans": "To ship a package containing liquids or hazardous materials, you must comply with regulations set by the relevant authorities, such as properly packaging, labeling, and declaring the contents.",
+    "rephrase_prompt": "What are the requirements for shipping packages with liquids or hazardous materials?",
+    "loc": "What are the specific shipping restrictions for lithium batteries?",
+    "loc_ans": "Lithium batteries are subject to strict shipping regulations, including proper packaging, labeling, and documentation, and may require special permits or approvals."
+  },
+  {
+    "case_id": "00050",
+    "prompt": "What is the cost of shipping a package to a nearby state or province?",
+    "subject": "shipping cost",
+    "ans": "The cost of shipping a package to a nearby state or province depends on the shipping carrier, package weight, and dimensions.",
+    "rephrase_prompt": "How much does it cost to send a package to a neighboring state or province?",
+    "loc": "What factors affect the cost of shipping to a nearby location?",
+    "loc_ans": "The shipping carrier, package weight, and dimensions"
+  },
+  {
+    "case_id": "00051",
+    "prompt": "Can I track my shipment using a barcode scanner?",
+    "subject": "shipment tracking",
+    "ans": "Yes, you can track your shipment using a barcode scanner by scanning the tracking number on your package.",
+    "rephrase_prompt": "How can I use a barcode scanner to monitor my package delivery?",
+    "loc": "Is barcode scanning available for tracking shipments in my region?",
+    "loc_ans": "Yes, barcode scanning for shipment tracking is generally available worldwide."
+  },
+  {
+    "case_id": "00052",
+    "prompt": "How do I handle a shipment that is being held at customs?",
+    "subject": "customs clearance",
+    "ans": "You can contact the customs office directly to inquire about the status and required documentation for clearance.",
+    "rephrase_prompt": "What steps should I take when my package is stuck in customs?",
+    "loc": "What are the customs procedures for importing goods into the US?",
+    "loc_ans": "Contact the US Customs and Border Protection agency for specific guidance on import procedures and requirements."
+  },
+  {
+    "case_id": "00053",
+    "prompt": "What is the procedure for filing a claim for a package that was damaged during transit?",
+    "subject": "Package Damage Claim",
+    "ans": "To file a claim, please contact our customer support team with your tracking number and a detailed description of the damage. They will guide you through the process.",
+    "rephrase_prompt": "How do I report a damaged package and initiate the claims process?",
+    "loc": "What information is required to submit a damage claim for a shipment?",
+    "loc_ans": "Your tracking number and a detailed description of the damage are required to submit a claim."
+  },
+  {
+    "case_id": "00054",
+    "prompt": "Can I get a refund or credit for a shipment that was not delivered on time?",
+    "subject": "Refund or Credit for Late Shipment",
+    "ans": "Please contact our customer service team to discuss possible refund or credit options based on our shipping policy.",
+    "rephrase_prompt": "What are my options for a late delivery refund or credit?",
+    "loc": "How do I get a refund for an international shipment delay?",
+    "loc_ans": "For international shipments, please contact our customer service team to discuss possible refund options based on our global shipping policy."
+  },
+  {
+    "case_id": "00055",
+    "prompt": "How do I ship a package that contains medical supplies or equipment?",
+    "subject": "Shipping Medical Supplies",
+    "ans": "To ship medical supplies or equipment, you should check with your carrier for specific regulations and restrictions, properly package and label the contents, and provide necessary documentation such as a commercial invoice and any required permits.",
+    "rephrase_prompt": "What are the steps to ship medical equipment or supplies?",
+    "loc": "What are the regulations for shipping medical supplies internationally?",
+    "loc_ans": "Regulations for shipping medical supplies internationally vary by country, but generally include obtaining necessary permits, following specific packaging and labeling guidelines, and complying with customs regulations."
+  },
+  {
+    "case_id": "00056",
+    "prompt": "What is the cost of shipping a package to a major city or metropolitan area?",
+    "subject": "shipping cost",
+    "ans": "The cost varies depending on the carrier, package weight, and dimensions.",
+    "rephrase_prompt": "How much does it cost to ship a package to a city?",
+    "loc": "Is shipping to a major city more expensive than to a rural area?",
+    "loc_ans": "Not necessarily, shipping costs depend on the carrier and package details, not just the location type."
+  },
+  {
+    "case_id": "00057",
+    "prompt": "Can I track my shipment using a mobile browser?",
+    "subject": "shipment tracking",
+    "ans": "Yes, you can track your shipment by visiting our website on your mobile browser and entering your tracking number.",
+    "rephrase_prompt": "Is mobile tracking available for my package?",
+    "loc": "How do I track my order on my phone?",
+    "loc_ans": "You can track your order by visiting our website on your mobile browser and entering your tracking number."
+  },
+  {
+    "case_id": "00058",
+    "prompt": "How do I handle a shipment that requires a delivery signature or confirmation?",
+    "subject": "shipment delivery",
+    "ans": "You can handle it by ensuring someone is available to sign for the package or by providing an alternate delivery address.",
+    "rephrase_prompt": "What to do when a package needs a signature upon delivery?",
+    "loc": "How do I specify a delivery location for a package that requires a signature?",
+    "loc_ans": "You can specify an alternate delivery address or have someone available to sign at your primary address."
+  },
+  {
+    "case_id": "00059",
+    "prompt": "What is the procedure for shipping a package that contains valuable or high-value items?",
+    "subject": "Shipping Valuable Items",
+    "ans": "To ship a package with valuable items, use a trackable shipping method, insure the package for its full value, and sign upon delivery.",
+    "rephrase_prompt": "How do I safely ship a package with high-value contents?",
+    "loc": "What shipping method is recommended for packages with valuable items internationally?",
+    "loc_ans": "For international shipping, consider using a reputable courier service that offers tracking and insurance, such as UPS, FedEx, or DHL."
+  },
+  {
+    "case_id": "00060",
+    "prompt": "Can I get a quote for shipping a package that requires a specific delivery time or window?",
+    "subject": "shipping package with specific delivery time",
+    "ans": "Yes, we can provide a quote for expedited shipping services with specific delivery times or windows. Please provide the package details and desired delivery time for a customized quote.",
+    "rephrase_prompt": "How do I get a shipping quote for a package with a specific delivery window?",
+    "loc": "What if I need my package delivered to a different country with specific timing?",
+    "loc_ans": "We offer international expedited shipping services with specific delivery times or windows; please contact us for a customized quote."
+  },
+  {
+    "case_id": "00061",
+    "prompt": "How do I ship a package that contains plants or live animals?",
+    "subject": "Shipping Live Organisms",
+    "ans": "To ship a package containing plants or live animals, check with the carrier for specific regulations and guidelines, as they may vary depending on the type of organism, destination, and shipping method.",
+    "rephrase_prompt": "What are the steps to mail a package with living plants or animals?",
+    "loc": "Are there different shipping rules for sending live plants to another country?",
+    "loc_ans": "Yes, shipping regulations for live plants and animals vary by destination and shipping method, so it's best to check with the carrier for specific guidelines."
+  },
+  {
+    "case_id": "00062",
+    "prompt": "What is the cost of shipping a package to a rural or remote area in another country?",
+    "subject": "Shipping Costs",
+    "ans": "The cost varies depending on the shipping carrier, package weight, and destination. You can expect to pay between $50 to $200 or more for shipping to rural areas.",
+    "rephrase_prompt": "How much does it cost to ship a package internationally to a rural area?",
+    "loc": "Do shipping costs differ for rural areas within the same country versus international destinations?",
+    "loc_ans": "Yes, shipping costs can vary significantly for rural areas within the same country compared to international destinations, often due to differences in logistics, infrastructure, and carrier services."
+  },
+  {
+    "case_id": "00063",
+    "prompt": "Can I track my shipment using a mapping or navigation app?",
+    "subject": "shipment tracking",
+    "ans": "Yes, many shipping companies provide tracking information that can be integrated with mapping or navigation apps to show the shipment's location.",
+    "rephrase_prompt": "Is it possible to use a mapping app to track my package?",
+    "loc": "How can I get the location of my shipment?",
+    "loc_ans": "You can get the location of your shipment by using the tracking information provided by the shipping company in a mapping or navigation app."
+  },
+  {
+    "case_id": "00064",
+    "prompt": "How do I handle a shipment that is delayed or being held at a port or border crossing?",
+    "subject": "shipment delay",
+    "ans": "Contact the shipping carrier or freight forwarder to determine the cause of the delay and arrange for resolution.",
+    "rephrase_prompt": "What steps should I take if my shipment is delayed at a port or border crossing?",
+    "loc": "What are the common causes of shipment delays at ports or border crossings?",
+    "loc_ans": "Common causes include customs issues, paperwork errors, weather conditions, and port congestion."
+  },
+  {
+    "case_id": "00065",
+    "prompt": "What is the procedure for filing a claim for a package that was lost or stolen?",
+    "subject": "claim procedure",
+    "ans": "To file a claim, please visit our website, navigate to the 'Support' section, and fill out the claim form with your order details and a description of the issue.",
+    "rephrase_prompt": "How do I report a lost or stolen package and initiate the claims process?",
+    "loc": "What is the website URL where I can file a claim for my lost package?",
+    "loc_ans": "You can find the claim form on our website by navigating to the 'Support' section."
+  },
+  {
+    "case_id": "00066",
+    "prompt": "Can I get a refund or credit for a shipment that was not delivered as expected due to weather or natural disasters?",
+    "subject": "Refund or Credit for Undelivered Shipments",
+    "ans": "Please contact our customer support team with your order details and we will assess the situation to provide a suitable resolution.",
+    "rephrase_prompt": "What options are available for shipments affected by inclement weather or natural disasters?",
+    "loc": "How do I request a refund for a package that was not delivered due to a hurricane?",
+    "loc_ans": "Contact customer support with your order details for assessment and resolution."
+  },
+  {
+    "case_id": "00067",
+    "prompt": "How do I ship a package that contains electronics or computer equipment?",
+    "subject": "Shipping Electronics",
+    "ans": "To ship electronics or computer equipment, use a sturdy box with adequate cushioning, mark it as 'Fragile', and consider using a shipping carrier that offers specialized handling for electronics.",
+    "rephrase_prompt": "What are the guidelines for shipping computer equipment or electronics?",
+    "loc": "What are the shipping restrictions for electronics in my area?",
+    "loc_ans": "Please check with your local shipping carrier for specific restrictions and guidelines on shipping electronics in your area."
+  },
+  {
+    "case_id": "00068",
+    "prompt": "What is the cost of shipping a package to a major port or transportation hub?",
+    "subject": "shipping cost",
+    "ans": "The cost varies depending on package weight, dimensions, and shipping carrier.",
+    "rephrase_prompt": "How much does it cost to send a package to a major port or hub?",
+    "loc": "Does the cost of shipping a package vary by location?",
+    "loc_ans": "Yes, shipping costs can also vary depending on the destination port or hub"
+  },
+  {
+    "case_id": "00069",
+    "prompt": "Can I track my shipment using a third-party logistics or shipping company?",
+    "subject": "Tracking Shipments",
+    "ans": "Yes, most third-party logistics and shipping companies provide tracking services.",
+    "rephrase_prompt": "Is it possible to track packages with third-party logistics providers?",
+    "loc": "How do I track my international shipment?",
+    "loc_ans": "You can track your international shipment by using the tracking number provided by the shipping company on their website or mobile app."
+  },
+  {
+    "case_id": "00070",
+    "prompt": "How do I handle a shipment that requires a specific or specialized delivery service?",
+    "subject": "specialized delivery service",
+    "ans": "For shipments requiring specific or specialized delivery services, contact our customer support to arrange for customized handling and delivery.",
+    "rephrase_prompt": "What to do with shipments needing custom delivery services?",
+    "loc": "What if I need to ship something to a remote area with specific delivery requirements?",
+    "loc_ans": "Contact customer support to discuss possible arrangements for remote or special location deliveries."
+  }
+]
